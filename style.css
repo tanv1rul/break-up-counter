@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "rocko";
+    text-align: center;
+    color: white;
+}
+
+
+@font-face {
+    font-family: "rocko";
+    src: url(fonts/rocko/RockoFLF.ttf);
+}
+
+.bg img{
+    display: block;
+    width: 100vw;
+    height: 100vh;
+}
+
+.bg .overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.692);
+}
+
+.bg .overlay h1{
+    padding-top: 25px;
+}
+
+.bg .overlay .date-segment{
+    padding-top: 15px;
+}
+
+.counter{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+}
